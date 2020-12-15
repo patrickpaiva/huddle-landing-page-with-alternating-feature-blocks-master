@@ -13,4 +13,120 @@ body {
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+
+header {
+    width: 100vw;
+    background-image: url('/images/bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+}
+
+header .header-content {
+    max-width: 1140px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header .header-content .logo-and-tryit {
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    object-fit: contain;
+}
+
+header .header-content .logo-and-tryit button {
+    padding: 14px 56px;
+    border: 0;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
+    color: hsl(192, 100%, 9%);
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+
+header .header-content .header-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+header .header-content .header-main .header-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+header .header-content .header-main .header-info h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+header .header-content .header-main .header-info p {
+    line-height: 28px;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 20px;
+}
+
+header .header-content .header-main .header-info button {
+    padding: 14px 70px;
+    border: 0;
+    border-radius: 30px;
+    background-color:hsl(322, 100%, 66%);
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
+    color:white;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+header .header-content .header-main img {
+    max-width: 50%;
+}
+
+
+footer .footer-content .social-midia {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+footer .footer-content .social-midia .midia {
+    margin-left: 16px;
+    border: 1px solid white;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+
+footer .footer-content .social-midia .midia i {
+    font-size: 24px;
+}
+
+footer .footer-content .social-midia .midia:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
