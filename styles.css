@@ -26,7 +26,7 @@ header {
 }
 
 header .header-content {
-    max-width: 1140px;
+    max-width: 1240px;
     padding: 20px;
     margin: 0 auto;
 }
@@ -92,6 +92,8 @@ header .header-content .header-main .header-info button {
 header .header-content .header-main img {
     max-width: 50%;
 }
+
+
 
 
 footer .footer-content .social-midia {
