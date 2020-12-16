@@ -23,6 +23,7 @@ header {
     background-position: 0 0;
     background-size: cover;
     background-color: hsl(193, 100%, 96%);
+    margin-bottom: 80px;
 }
 
 header .header-content {
@@ -93,7 +94,69 @@ header .header-content .header-main img {
     max-width: 50%;
 }
 
+main {
+    max-width: 1140px;
+    padding: 20px;
+    margin: 0 auto;
+}
 
+section {
+    display: flex;
+    height: 400px;
+    padding: 20px 20px 20px 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+
+section:last-child {
+    margin-bottom: 0px;
+}
+
+section img {
+    max-width: 30%;
+    object-fit: contain;
+}
+
+section .section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40%;
+}
+
+section .section-text p {
+    margin-top: 20px;
+    color: hsl(208, 11%, 55%);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ready-to-build {
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+}
+
+.ready-to-build button {
+    padding: 16px 70px;
+    border: 0;
+    border-radius: 30px;
+    background-color:hsl(322, 100%, 66%);
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
+    color:white;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    max-width: max-content;
+    margin-top: 20px;
+}
 
 
 footer .footer-content .social-midia {
