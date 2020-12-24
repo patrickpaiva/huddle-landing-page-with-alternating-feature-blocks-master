@@ -219,7 +219,6 @@ footer nav a:hover {
 
 footer .footer-content .social-midia {
     display: flex;
-    align-items: flex-end;
     justify-content: flex-end;
 }
 
