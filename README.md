@@ -2,6 +2,15 @@
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
 
+## Patrick´s Notes :v:
+
+Hi! I just finished this challenge and you can access it live using the address:
+https://huddle-landing-page-with-alternating-feature-blocks-master.patrickpaiva.vercel.app
+
+Thanks for visiting! Below you can read Frontend Mentor's instructions.
+
+Bye!
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
